@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Weather Dashboard 🌤️</h1>
+
+    <h2 id="location">Boston</h2>
+
+    <div id="current">
+      <p id="temp"></p>
+      <p id="desc"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+
+    <button id="toggleUnit">Switch to °F</button>
+
+    <h3>3-Day Forecast</h3>
+    <div id="forecast"></div>
+
+    <p id="loading" class="hidden">Loading...</p>
+    <p id="error" class="hidden"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
