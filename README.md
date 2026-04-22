@@ -15,10 +15,10 @@ https://tamannakothari.github.io/Elective-Mini-Project-2/
 Here’s how the dashboard looks in both temperature modes:
 
 ### Celsius View
-![Weather Dashboard Celsius](images/Weather Dashboard (C).png)
+![Weather Dashboard Celsius](images/Weather%20Dashboard%20(C).png)
 
 ### Fahrenheit View
-![Weather Dashboard Fahrenheit](images/Weather Dashboard (F).png)
+![Weather Dashboard Fahrenheit](images/Weather%20Dashboard%20(F).png)
 
 
 
