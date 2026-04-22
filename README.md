@@ -20,8 +20,6 @@ Here’s how the dashboard looks in both temperature modes:
 ### Fahrenheit View
 ![Weather Dashboard Fahrenheit](images/Weather%20Dashboard%20(F).png)
 
-
-
 ## API Used
 Open-Meteo API (no API key required)  
 https://open-meteo.com/
