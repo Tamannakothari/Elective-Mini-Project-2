@@ -1,0 +1,27 @@
+# Learning Logs
+
+# Iteration 1: Fetch and Display
+
+In the first iteration, I focused on connecting to the Open-Meteo API and understanding how the data works. I used fetch() to get the weather data and logged the response in the console to explore the JSON structure.
+
+The API returned data in a nested format, so I had to identify which fields to use, like temperature, wind speed, and humidity. The trickiest part was understanding how to access the correct values from the response.
+
+Once I understood the structure, I displayed the current temperature and a few other details on the page. AI helped me better understand how async/await works and how to handle the API response.
+
+# Iteration 2: Design and Data
+
+In this iteration, I focused on making the dashboard more complete and visually appealing. I added a 3-day forecast and displayed the high and low temperatures for each day.
+
+Since the API returns weather as numeric codes, I created a mapping system to convert those codes into readable descriptions and emojis. This made the data much easier to understand.
+
+I also improved the layout by using a card-style design for the forecast and spacing out the content so it looked more like a real weather app. I made design choices to keep it clean, simple, and easy to read.
+
+# Iteration 3: Interactivity and Polish
+
+In the final iteration, I added an interactive feature that allows users to toggle between Celsius and Fahrenheit. This made the dashboard more useful and gave users control over how they view the data.
+
+I also added a loading state so users see “Loading...” while the data is being fetched, and an error message in case the API fails. This made the app feel more complete and reliable.
+
+While testing, I made sure the app handled edge cases, like switching units multiple times and ensuring the data updates correctly each time.
+
+This iteration helped me understand the importance of user experience. Even small features like unit toggling and loading feedback made the app feel much more polished and realistic.
